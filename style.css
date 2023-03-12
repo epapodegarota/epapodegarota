@@ -23,12 +23,16 @@ body {
     font-size: 3rem;
 }
 
+#content>p {
+    margin-top: 0;
+}
+
 #logo {
     text-align: center;
 }
 
 #logo>img {
-    width: 25%;
+    width: 340px;
 }
 
 #footer {
@@ -52,4 +56,38 @@ body {
 
 #social>span>a>img {
     width: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: 90vh;
+        width: 95vw;
+    }
+
+    #logo>img {
+        width: 180px;
+    }
+
+    .main {
+        margin: 0;
+        height: 100%;
+    }
+
+    #content {
+        font-size: 1.5rem;
+        margin: 0 35px;
+    }
+
+    #social>span {
+        font-size: 1.2rem;
+        margin-left: 8px;
+    }
+
+    #social>span:first-child {
+        margin-left: 0;
+    }
+
+    #social>span>a>img {
+        width: 35px;
+    }
 }
