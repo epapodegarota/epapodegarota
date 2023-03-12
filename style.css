@@ -1,3 +1,55 @@
 body {
     background-color: #A98EC2;
+    font-family: 'Baumans', cursive;
+    color: white;
+    height: 90vh;
+    width: 95vw;
+}
+
+.main {
+    margin: 3rem 20rem;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#content {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo>img {
+    width: 25%;
+}
+
+#footer {
+    text-align: center;
+}
+
+#social {
+    display: inline-flex;
+}
+
+#social>span {
+    font-size: 2rem;
+    margin: auto;
+    margin-left: 1rem;
+}
+
+#social>span>a {
+    color: white;
+    text-decoration: none;
+}
+
+#social>span>a>img {
+    width: 60px;
 }
